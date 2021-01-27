@@ -21,7 +21,7 @@ def order():
 
 while True:
     query = order()
-    if "quit" in query:
+    if "assistant quit" in query:
         quit()
     else:
         pyautogui.typewrite(query)
